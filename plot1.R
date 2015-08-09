@@ -8,7 +8,7 @@ small_data <- subset(data, subset=(Date >= "2007-02-01" & Date <= "2007-02-02"))
 rm(data)
 
 ## create Plot(histogram)
-hist(small_data$Global_active_power, main="Global Active Power", 
+hist(data_small$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
 ## Save .png file
